@@ -24,6 +24,11 @@ var model = null;
 window.addEventListener('keydown', keyDown);
 window.addEventListener('keyup', keyUp);
 window.onload = init;
+window.onresize = function() {
+    if(renderer !== null) {
+        setRenderer(window.innerWidth - 2, window.innerHeight - 2.5);
+    }
+}
 
 //polygon structure for models in the scene
 function createMesh(geometry, material) {
