@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <clipPath id="clip-Instructions_WebGL">
+      <rect width="800" height="600"/>
+    </clipPath>
+  </defs>
+  <g id="Instructions_WebGL" clip-path="url(#clip-Instructions_WebGL)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(155 75)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="114" height="112" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="113" height="111" rx="9.5" fill="none"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(24 230)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="114" height="112" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="113" height="111" rx="9.5" fill="none"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(155 230)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="114" height="112" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="113" height="111" rx="9.5" fill="none"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(286 230)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="114" height="112" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="113" height="111" rx="9.5" fill="none"/>
+    </g>
+    <text id="Move_Around" data-name="Move Around" transform="translate(94 43)" fill="#fff" font-size="40" font-family="ArialMT, Arial"><tspan x="0" y="0">Move Around</tspan></text>
+    <text id="Turn_Camera" data-name="Turn Camera" transform="translate(499 145)" fill="#fff" font-size="40" font-family="ArialMT, Arial"><tspan x="0" y="0">Turn Camera</tspan></text>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(493 230)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="114" height="112" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="113" height="111" rx="9.5" fill="none"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(624 230)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="114" height="112" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="113" height="111" rx="9.5" fill="none"/>
+    </g>
+    <text id="W" transform="translate(184 152)" font-size="60" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">W</tspan></text>
+    <text id="S" transform="translate(193 307)" font-size="60" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">S</tspan></text>
+    <text id="A" transform="translate(62 307)" font-size="60" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">A</tspan></text>
+    <text id="D" transform="translate(322 307)" font-size="60" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">D</tspan></text>
+    <text id="_" data-name="&lt;" transform="translate(533 307)" font-size="60" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">&lt;</tspan></text>
+    <text id="_2" data-name="&gt;" transform="translate(667 307)" font-size="60" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">&gt;</tspan></text>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(178 491)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="438" height="80" rx="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="437" height="79" rx="19.5" fill="none"/>
+    </g>
+    <text id="Spacebar" transform="translate(307 545)" font-size="40" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Spacebar</tspan></text>
+    <text id="Fire_Weapon" data-name="Fire Weapon" transform="translate(286 454)" fill="#fff" font-size="40" font-family="ArialMT, Arial"><tspan x="0" y="0">Fire Weapon</tspan></text>
+  </g>
+</svg>
