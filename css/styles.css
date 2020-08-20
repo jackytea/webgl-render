@@ -3,13 +3,17 @@ html {
 }
 
 body {
-    margin: auto;
+    margin: 0;
     padding: 0;
     background: #000000;
 }
 
 #instructions {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
     opacity: 0.8;
     z-index: 1000;
     margin: 0;
