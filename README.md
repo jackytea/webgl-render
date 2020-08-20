@@ -4,7 +4,6 @@
 
 A first person movement demonstration using WebGL 3D rendering.
 
-<br/>
 
 ## External Libraries and Tools Used
 
@@ -18,7 +17,6 @@ OBJLoader.JS - OBJ Resource loader by [mrdoob](https://github.com/mrdoob).
 
 **Credit is given where due for these tools.**
 
-<br/>
 
 ## Techniques
 
@@ -38,7 +36,6 @@ Moving forwards ('w' key is being pressed):
 
 *Z<sub>cameraPosition</sub> = Z<sub>cameraPosition</sub> - (-cos(Y<sub>cameraRotation</sub>)) - V<sub>mouseVelocity</sub>*
 
-<br/>
 
 Moving backwards ('s' key is being pressed):
 
@@ -46,7 +43,6 @@ Moving backwards ('s' key is being pressed):
 
 *Z<sub>cameraPosition</sub> = Z<sub>cameraPosition</sub> - (-cos(Y<sub>cameraRotation</sub>)) - V<sub>mouseVelocity</sub>*
 
-<br/>
 
 Strafing left ('a' key is being pressed):
 
@@ -54,7 +50,6 @@ Strafing left ('a' key is being pressed):
 
 *Z<sub>cameraPosition</sub> = Z<sub>cameraPosition</sub> - (-cos(Y<sub>cameraRotation</sub> + π / 2)) - V<sub>mouseVelocity</sub>*
 
-<br/>
 
 Strafing right ('d' key is being pressed):
 
@@ -62,23 +57,17 @@ Strafing right ('d' key is being pressed):
 
 *Z<sub>cameraPosition</sub> = Z<sub>cameraPosition</sub> - (-cos(Y<sub>cameraRotation</sub> - π / 2)) - V<sub>mouseVelocity</sub>*
 
-<br/>
 
 Turning camera right ('right arrow ->' key is being pressed):
 
 *Y<sub>cameraRotation</sub> = Y<sub>cameraRotation</sub> + V<sub>mouseVelocity</sub>*
 
-<br/>
 
 Turning camera left ('left arrow <-' key is being pressed):
 
 *Y<sub>cameraRotation</sub> = Y<sub>cameraRotation</sub> - V<sub>mouseVelocity</sub>*
 
-<br/>
-
 **First Person Model Tracking**
-
-<br/>
 
 Positioning:
 
@@ -88,8 +77,6 @@ Positioning:
 
 *Z<sub>cameraPosition</sub> = Z<sub>cameraPosition</sub> - cos(Y<sub>cameraRotation</sub> + π / 6) * C*
 
-<br/>
-
 Rotation:
 
 *X<sub>cameraRotation</sub> = X<sub>cameraRotation</sub>*
@@ -98,8 +85,6 @@ Rotation:
 
 *Z<sub>cameraRotation</sub> = Z<sub>cameraRotation</sub>*
 
-<br/>
-
 **Projectile Calculations**
 
 *V<sub>projectileVelocityX</sub> = sin(Y<sub>cameraRotation</sub>)*
@@ -107,8 +92,6 @@ Rotation:
 *V<sub>projectileVelocityY</sub> = 0*
 
 *V<sub>projectileVelocityZ</sub> = cos(Y<sub>cameraRotation</sub>)*
-
-<br/>
 
 ## Controls
 
@@ -121,8 +104,6 @@ Rotation:
 | Space Bar       |    Fire weapon.    |
 | Left Arrow Key  | Turn camera left.  |
 | Right Arrow Key | Turn camera right. |
-
-<br/>
 
 ## Demo GIFs
 
