@@ -1,4 +1,4 @@
-# WebGL First Person Demo
+# WebGL First Person Render
 
 ## Overview
 
