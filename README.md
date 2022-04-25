@@ -20,14 +20,6 @@ OBJLoader.JS - OBJ Resource loader by [mrdoob](https://github.com/mrdoob).
 
 ## Techniques
 
-All calculations were based off a 3D Cartesian plane denoted by the X-Axis (red line), Y-Axis (green line) and the Z-axis (blue line).
-
-![3D Cartesian Plane](./demos/3D_Plane.svg)
-
-Radians were used to determine the degree of rotation.
-
-![Radian Chart](./demos/Radians.svg)
-
 **Locking The Camera**
 
 Moving forwards ('w' key is being pressed):
